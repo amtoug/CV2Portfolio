@@ -1,0 +1,61 @@
+HAMZA ERRAMI  
+MACHINE LEARNING ENGINEER  
+Python · PyTorch · TensorFlow · Scikit-learn · MLflow · Docker
+
+Marrakech, Maroc  
++212 600 000 104  
+hamza.errami@example.com  
+GitHub · LinkedIn
+
+PROFIL  
+Machine Learning Engineer avec une formation en intelligence artificielle et une expérience dans le développement, l’évaluation et le déploiement de modèles de Machine Learning. Intérêt pour les systèmes prédictifs, le Deep Learning et le MLOps.
+
+EXPÉRIENCE
+
+PredictAI — ML Engineer  
+Marrakech | 2025–2026  
+— Développement de modèles de classification et régression.  
+— Optimisation des hyperparamètres et validation des performances.  
+— Création de pipelines d’entraînement automatisés.  
+— Suivi des expériences avec MLflow.  
+— Déploiement de modèles sous forme d’API.
+
+InnovaTech — Data Science Intern  
+Marrakech | 2024–2025  
+— Préparation de datasets.  
+— Analyse exploratoire des données.  
+— Expérimentation de plusieurs modèles ML.
+
+FORMATION
+
+Master — Artificial Intelligence  
+Université Cadi Ayyad | 2024–2026
+
+Licence — Informatique  
+Université Cadi Ayyad | 2021–2024
+
+COMPÉTENCES
+
+Machine Learning  
+Scikit-learn, XGBoost, classification, régression, clustering
+
+Deep Learning  
+PyTorch, TensorFlow, Keras, CNN, LSTM, Transformers
+
+MLOps  
+MLflow, Docker, DVC, Git, GitHub Actions
+
+Backend  
+FastAPI, REST API
+
+PROJETS
+
+Détection de fraude  
+Modèle de classification permettant d’identifier des transactions potentiellement frauduleuses.
+
+Système de recommandation  
+Développement d’un moteur de recommandation basé sur les interactions utilisateurs.
+
+LANGUES
+
+Arabe : Courant | Français : B2 | Anglais : B2

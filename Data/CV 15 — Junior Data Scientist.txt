@@ -1,0 +1,54 @@
+ADAM BOUAZZA  
+JUNIOR DATA SCIENTIST  
+Python · Pandas · Scikit-learn · SQL · Statistics
+
+Béni Mellal, Maroc  
++212 600 000 115  
+adam.bouazza@example.com  
+LinkedIn · GitHub
+
+PROFIL  
+Jeune diplômé en Data Science avec une solide base en statistiques, Machine Learning et programmation Python. Recherche une première opportunité professionnelle dans l’analyse et la modélisation des données.
+
+FORMATION
+
+Master — Data Science  
+Université Sultan Moulay Slimane | 2024–2026
+
+Licence — Data Science  
+Université Sultan Moulay Slimane | 2021–2024
+
+EXPÉRIENCE
+
+Data Internship — Data Analyst  
+Béni Mellal | 2025  
+— Nettoyage et préparation de données.  
+— Analyse exploratoire avec Pandas.  
+— Création de visualisations.  
+— Entraînement de modèles de classification.
+
+COMPÉTENCES
+
+Python  
+Pandas, NumPy, Matplotlib, Seaborn
+
+Machine Learning  
+Scikit-learn, classification, régression, clustering
+
+Data  
+SQL, Excel, statistiques
+
+Outils  
+Jupyter, Git, GitHub
+
+PROJETS
+
+Prédiction des prix immobiliers  
+Comparaison de modèles de régression pour estimer les prix immobiliers.
+
+Classification clients  
+Segmentation de clients à partir de leurs caractéristiques et comportements.
+
+LANGUES
+
+Arabe : Courant | Français : B2 | Anglais : B1

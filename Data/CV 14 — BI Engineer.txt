@@ -1,0 +1,61 @@
+YOUNES CHAKIR  
+BUSINESS INTELLIGENCE ENGINEER  
+SQL · Power BI · DAX · ETL · Data Warehouse · Azure
+
+Casablanca, Maroc  
++212 600 000 114  
+younes.chakir@example.com  
+LinkedIn · Portfolio
+
+PROFIL  
+BI Engineer spécialisé dans la conception de solutions décisionnelles, l’intégration de données et la création de tableaux de bord. Expérience avec SQL, Power BI, DAX et les architectures Data Warehouse.
+
+EXPÉRIENCE
+
+BI Consulting — BI Engineer  
+Casablanca | 2025–2026  
+— Conception de modèles de données analytiques.  
+— Développement de rapports Power BI.  
+— Écriture de mesures DAX.  
+— Développement de processus ETL.  
+— Optimisation de requêtes SQL.
+
+DataVision — BI Intern  
+Casablanca | 2024–2025  
+— Préparation de données.  
+— Création de dashboards.  
+— Documentation des indicateurs.
+
+FORMATION
+
+Master — Business Intelligence  
+Université Hassan II | 2024–2026
+
+Licence — Informatique de Gestion  
+Université Ibn Zohr | 2021–2024
+
+COMPÉTENCES
+
+BI  
+Power BI, DAX, dashboards
+
+Data Engineering  
+ETL, SQL, Data Warehouse
+
+Databases  
+SQL Server, PostgreSQL, MySQL
+
+Cloud  
+Azure, Power BI Service
+
+PROJETS
+
+Sales Dashboard  
+Conception d’un dashboard permettant de suivre chiffre d’affaires, marge et performances commerciales.
+
+Data Warehouse  
+Modélisation en étoile d’un système décisionnel.
+
+LANGUES
+
+Arabe : Courant | Français : Courant | Anglais : B2

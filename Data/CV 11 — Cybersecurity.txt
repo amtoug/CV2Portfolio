@@ -1,0 +1,63 @@
+MOHAMED ZEROUAL  
+CYBERSECURITY ENGINEER | SECURITY ANALYST  
+Python · Network Security · Linux · SIEM · Web Security
+
+Rabat, Maroc  
++212 600 000 111  
+mohamed.zeroual@example.com  
+LinkedIn · GitHub
+
+PROFIL  
+Ingénieur cybersécurité avec une formation en sécurité des systèmes d’information. Expérience académique et pratique en sécurité réseau, sécurité applicative, Linux et analyse des événements de sécurité.
+
+EXPÉRIENCE
+
+SecureNet — Security Analyst  
+Rabat | 2025–2026  
+— Analyse des événements de sécurité.  
+— Configuration de règles de détection.  
+— Tests de sécurité sur des applications web.  
+— Analyse des vulnérabilités et rédaction de rapports.
+
+WebSecure — Security Intern  
+Rabat | 2024–2025  
+— Tests de sécurité applicative.  
+— Identification de vulnérabilités XSS et SQL Injection.  
+— Vérification des configurations serveur.
+
+FORMATION
+
+Master — Sécurité des Systèmes d’Information  
+Université Mohammed V | 2024–2026
+
+Licence — Réseaux et Systèmes  
+Université Ibn Tofail | 2021–2024
+
+COMPÉTENCES
+
+Cybersecurity  
+Web security, network security, vulnerability assessment
+
+Systèmes  
+Linux, Windows, Bash
+
+Réseaux  
+TCP/IP, HTTP, DNS, VPN
+
+Programmation  
+Python, SQL, JavaScript
+
+Outils  
+Wireshark, Nmap, Git
+
+PROJETS
+
+Analyse de logs  
+Développement d’un outil Python d’analyse automatique de journaux système.
+
+Sécurité web  
+Mise en place d’un environnement de test permettant d’étudier plusieurs vulnérabilités web.
+
+LANGUES
+
+Arabe : Courant | Français : B2 | Anglais : B2

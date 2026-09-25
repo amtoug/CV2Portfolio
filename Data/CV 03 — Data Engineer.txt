@@ -1,0 +1,61 @@
+SALMA ALAOUI  
+DATA ENGINEER | PYTHON DEVELOPER  
+Python · SQL · ETL · Spark · Airflow · Cloud
+
+Tanger, Maroc  
++212 600 000 103  
+salma.alaoui@example.com  
+LinkedIn · GitHub · Portfolio
+
+PROFIL  
+Data Engineer spécialisée dans la conception de pipelines de données, l’intégration de sources hétérogènes et le traitement de données à grande échelle. Expérience avec Python, SQL, Apache Spark, Airflow et les environnements cloud.
+
+EXPÉRIENCE
+
+DataFlow Morocco — Data Engineer  
+Tanger | 2024–2026  
+— Développement de pipelines ETL avec Python.  
+— Orchestration de workflows avec Apache Airflow.  
+— Transformation de données avec Spark.  
+— Conception de tables analytiques sous PostgreSQL.  
+— Automatisation de contrôles de qualité des données.
+
+NorthData — Junior Data Engineer  
+Tétouan | 2023–2024  
+— Extraction de données depuis des APIs et bases SQL.  
+— Nettoyage et transformation de datasets.  
+— Documentation des pipelines et processus de traitement.
+
+FORMATION
+
+Master — Big Data & Data Engineering  
+Université Abdelmalek Essaâdi | 2024–2026
+
+Licence — Informatique  
+Université Abdelmalek Essaâdi | 2021–2024
+
+COMPÉTENCES
+
+Data Engineering  
+Python, SQL, ETL, Apache Spark, Airflow, Pandas
+
+Bases de données  
+PostgreSQL, MySQL, MongoDB
+
+Cloud  
+Azure, stockage cloud, services de calcul
+
+DevOps  
+Docker, Git, Linux, CI/CD
+
+PROJETS
+
+Data Warehouse  
+Conception d’un entrepôt de données avec PostgreSQL et création d’un pipeline ETL automatisé.
+
+Pipeline Big Data  
+Traitement d’un dataset de plusieurs millions de lignes avec Apache Spark.
+
+LANGUES
+
+Arabe : Courant | Français : B2 | Anglais : B2

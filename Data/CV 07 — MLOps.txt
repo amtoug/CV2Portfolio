@@ -1,0 +1,61 @@
+ILYAS BERRADA  
+MLOPS ENGINEER | MACHINE LEARNING  
+Python · Docker · Kubernetes · MLflow · CI/CD · Cloud
+
+Rabat, Maroc  
++212 600 000 107  
+ilyas.berrada@example.com  
+GitHub · LinkedIn · Portfolio
+
+PROFIL  
+MLOps Engineer orienté automatisation et industrialisation des systèmes de Machine Learning. Expérience dans la mise en place de pipelines CI/CD, le suivi des modèles et la conteneurisation des applications.
+
+EXPÉRIENCE
+
+CloudAI — MLOps Engineer  
+Rabat | 2025–2026  
+— Mise en place de pipelines CI/CD pour des applications ML.  
+— Conteneurisation avec Docker.  
+— Déploiement de services sur Kubernetes.  
+— Suivi des expériences et modèles avec MLflow.  
+— Gestion du versionnement des datasets avec DVC.
+
+DevOpsLab — DevOps Intern  
+Rabat | 2024–2025  
+— Automatisation de workflows avec GitHub Actions.  
+— Création d’images Docker.  
+— Maintenance de services Linux.
+
+FORMATION
+
+Master — Cloud Computing & Data  
+Université Internationale de Rabat | 2024–2026
+
+Licence — Informatique  
+Université Mohammed V | 2021–2024
+
+COMPÉTENCES
+
+MLOps  
+MLflow, DVC, model registry, experiment tracking
+
+DevOps  
+Docker, Kubernetes, GitHub Actions, CI/CD, Linux
+
+Cloud  
+Azure, AWS, OVHcloud
+
+ML  
+Python, Scikit-learn, PyTorch
+
+PROJETS
+
+ML Deployment Pipeline  
+Pipeline complet allant de l’entraînement au déploiement d’un modèle ML.
+
+Model Monitoring  
+Prototype de suivi des performances d’un modèle après déploiement.
+
+LANGUES
+
+Arabe : Courant | Français : Courant | Anglais : B2

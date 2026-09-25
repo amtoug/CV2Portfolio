@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Abdessamad AMTOUG — Ajouter CV & liens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EDEEE7; --ink:#1B2430; --ink-soft:#4B5563; --rust:#A85C32; --teal:#33646A;
+    --line:rgba(27,36,48,0.14); --line-soft:rgba(27,36,48,0.08); --card:#F6F6F1; --ok:#3E7A52; --err:#B14545;
+    box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#14181C; --ink:#EDEEE7; --ink-soft:#A9B0B8; --rust:#D08A5B; --teal:#5FA3A9;
+      --line:rgba(237,238,231,0.16); --line-soft:rgba(237,238,231,0.08); --card:#191E23;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#14181C; --ink:#EDEEE7; --ink-soft:#A9B0B8; --rust:#D08A5B; --teal:#5FA3A9;
+    --line:rgba(237,238,231,0.16); --line-soft:rgba(237,238,231,0.08); --card:#191E23;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-padding-top:env(safe-area-inset-top,0px);}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:'Inter',system-ui,sans-serif;
+    background-image:linear-gradient(var(--line-soft) 1px, transparent 1px), linear-gradient(90deg, var(--line-soft) 1px, transparent 1px);
+    background-size:36px 36px; min-height:100%;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  header{border-bottom:1px solid var(--line); position:sticky; top:env(safe-area-inset-top,0px); background:var(--paper); z-index:10;}
+  .nav{max-width:640px; margin:0 auto; padding:14px 24px; display:flex; align-items:center; gap:10px;}
+  .logo-mark{width:36px; height:36px; border:1.5px solid var(--ink); border-radius:3px; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; position:relative;}
+  .logo-mark::after{content:""; position:absolute; inset:4px; border:1px solid var(--rust); border-radius:2px; opacity:.55;}
+  .logo-text{font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:14.5px; line-height:1.15;}
+  .logo-text span{display:block; font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--ink-soft); font-weight:400;}
+
+  main{max-width:640px; margin:0 auto; padding:48px 24px 80px;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace; font-size:13px; color:var(--rust); margin:0 0 10px;}
+  h1{font-family:'Space Grotesk',sans-serif; font-size:clamp(26px,5vw,34px); font-weight:600; margin:0 0 10px; letter-spacing:-0.3px;}
+  .lead{color:var(--ink-soft); font-size:15.5px; line-height:1.6; margin:0 0 36px; max-width:52ch;}
+
+  .field-label{font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--ink-soft); margin:0 0 8px; display:block;}
+
+  /* dropzone */
+  .dropzone{border:1.5px dashed var(--line); border-radius:5px; padding:32px 20px; text-align:center; cursor:pointer; transition:border-color .15s, background .15s; background:var(--card);}
+  .dropzone.drag{border-color:var(--rust); background:var(--line-soft);}
+  .dropzone svg{width:30px; height:30px; stroke:var(--ink-soft); margin-bottom:10px;}
+  .dz-title{font-size:15px; font-weight:600; margin:0 0 4px;}
+  .dz-sub{font-size:13px; color:var(--ink-soft); margin:0;}
+  .dz-sub .rust{color:var(--rust);}
+  input[type=file]{display:none;}
+
+  .file-card{display:flex; align-items:center; gap:14px; border:1px solid var(--line); border-radius:5px; padding:14px 16px; background:var(--card);}
+  .file-icon{width:38px; height:38px; flex-shrink:0; border-radius:4px; background:var(--paper); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--rust); font-weight:500;}
+  .file-meta{flex:1; min-width:0;}
+  .file-name{font-size:14.5px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .file-size{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-soft);}
+  .file-remove{background:none; border:1px solid var(--line); color:var(--ink-soft); border-radius:3px; width:28px; height:28px; cursor:pointer; font-size:15px; line-height:1; flex-shrink:0;}
+  .file-remove:hover{border-color:var(--err); color:var(--err);}
+
+  section.block{margin-bottom:30px;}
+
+  .input-row{position:relative; margin-bottom:18px;}
+  .input-row label{display:block; font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--ink-soft); margin-bottom:8px;}
+  .input-wrap{display:flex; align-items:center; border:1px solid var(--line); border-radius:5px; background:var(--card); padding:0 14px; transition:border-color .15s;}
+  .input-wrap:focus-within{border-color:var(--ink);}
+  .input-wrap.valid{border-color:var(--ok);}
+  .input-wrap.invalid{border-color:var(--err);}
+  .input-wrap .ico{width:16px; height:16px; stroke:var(--ink-soft); flex-shrink:0; margin-right:10px;}
+  .input-wrap input{border:none; background:transparent; outline:none; flex:1; padding:12px 0; font-size:14.5px; color:var(--ink); font-family:'Inter',sans-serif; min-width:0;}
+  .input-hint{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--err); margin-top:6px; min-height:14px;}
+
+  .actions{display:flex; gap:12px; flex-wrap:wrap; margin-top:8px;}
+  .btn{font-family:'IBM Plex Mono',monospace; font-size:13px; padding:12px 20px; border-radius:4px; border:1px solid var(--ink); background:none; color:var(--ink); cursor:pointer; transition:background .15s,color .15s;}
+  .btn.primary{background:var(--ink); color:var(--paper);}
+  .btn.primary:hover{background:var(--rust); border-color:var(--rust); color:#fff;}
+  .btn:not(.primary):hover{background:var(--line-soft);}
+  .btn:disabled{opacity:.45; cursor:not-allowed;}
+
+  .status{display:none; align-items:center; gap:8px; font-family:'IBM Plex Mono',monospace; font-size:13px; color:var(--ok); margin-top:16px;}
+  .status.show{display:flex;}
+  .status svg{width:16px; height:16px; stroke:var(--ok);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <span class="logo-mark">AA</span>
+    <span class="logo-text">Abdessamad AMTOUG<span>Espace candidature</span></span>
+  </div>
+</header>
+<form id="cvForm" enctype="multipart/form-data">
+
+  <main>
+    <p class="eyebrow mono">Constituer mon profil</p>
+
+    <h1>Ajouter mon CV et mes liens</h1>
+
+    <p class="lead">
+      Déposez votre CV et renseignez vos liens professionnels.
+      Ces informations serviront à construire votre portfolio.
+    </p>
+
+    <!-- CV -->
+    <section class="block">
+      <span class="field-label">Curriculum vitae</span>
+
+      <div
+        id="dropzone"
+        class="dropzone"
+        tabindex="0"
+        role="button"
+        aria-label="Déposer ou choisir un fichier CV"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M12 3v12"/>
+          <path d="M7 8l5-5 5 5"/>
+          <path d="M5 21h14"/>
+        </svg>
+
+        <p class="dz-title">Glissez votre CV ici</p>
+
+        <p class="dz-sub">
+          ou <span class="rust">parcourez vos fichiers</span>
+          — PDF, DOC, DOCX (10 Mo max)
+        </p>
+      </div>
+
+      <div
+        id="fileCard"
+        class="file-card"
+        style="display:none; margin-top:14px;"
+      >
+        <div class="file-icon" id="fileIcon">PDF</div>
+
+        <div class="file-meta">
+          <div class="file-name" id="fileName"></div>
+          <div class="file-size" id="fileSize"></div>
+        </div>
+
+        <button
+          class="file-remove"
+          id="fileRemove"
+          type="button"
+          aria-label="Retirer le fichier"
+        >
+          ✕
+        </button>
+      </div>
+
+      <!-- IMPORTANT : name="cv" -->
+      <input
+        type="file"
+        id="fileInput"
+        name="cv"
+        accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      >
+    </section>
+
+
+    <!-- LIENS PROFESSIONNELS -->
+    <section class="block">
+
+      <!-- LinkedIn -->
+      <div class="input-row">
+        <label for="linkedin">Profil LinkedIn</label>
+
+        <div class="input-wrap" id="wrap-linkedin">
+
+          <svg
+            class="ico"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke-width="1.6"
+          >
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <path d="M7 10v7M7 7v.01M11 17v-4.5a2 2 0 0 1 4 0V17M11 12.5V17"/>
+          </svg>
+
+          <!-- IMPORTANT : name="linkedin" -->
+          <input
+            type="text"
+            id="linkedin"
+            name="linkedin"
+            placeholder="linkedin.com/in/votre-nom"
+            autocomplete="off"
+          >
+
+        </div>
+
+        <div class="input-hint" id="hint-linkedin"></div>
+      </div>
+
+
+      <!-- GitHub -->
+      <div class="input-row">
+        <label for="github">Profil GitHub</label>
+
+        <div class="input-wrap" id="wrap-github">
+
+          <svg
+            class="ico"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke-width="1.6"
+          >
+            <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 1.7 5.4 2 5.4 2a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 8.4c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V19"/>
+          </svg>
+
+          <!-- IMPORTANT : name="github" -->
+          <input
+            type="text"
+            id="github"
+            name="github"
+            placeholder="github.com/votre-identifiant"
+            autocomplete="off"
+          >
+
+        </div>
+
+        <div class="input-hint" id="hint-github"></div>
+      </div>
+
+
+      <!-- Website -->
+      <div class="input-row">
+        <label for="website">Site web / portfolio</label>
+
+        <div class="input-wrap" id="wrap-website">
+
+          <svg
+            class="ico"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke-width="1.6"
+          >
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
+          </svg>
+
+          <!-- IMPORTANT : name="website" -->
+          <input
+            type="text"
+            id="website"
+            name="website"
+            placeholder="votresite.com"
+            autocomplete="off"
+          >
+
+        </div>
+
+        <div class="input-hint" id="hint-website"></div>
+      </div>
+
+    </section>
+
+
+    <!-- ACTIONS -->
+    <div class="actions">
+
+      <!-- submit du formulaire -->
+      <button
+        class="btn primary"
+        id="saveBtn"
+        type="submit"
+      >
+        Enregistrer mes informations
+      </button>
+
+      <button
+        class="btn"
+        id="exportBtn"
+        type="button"
+        disabled
+      >
+        Exporter en JSON
+      </button>
+
+    </div>
+
+
+    <!-- STATUS -->
+    <div class="status" id="status">
+
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M20 6L9 17l-5-5"/>
+      </svg>
+
+      <span>
+        Informations enregistrées sur cet appareil.
+      </span>
+
+    </div>
+
+  </main>
+
+</form>
+<script>
+const STORAGE_KEY = 'aa-portfolio-intake';
+let state = { fileName:null, fileSize:null, linkedin:'', github:'', website:'' };
+
+/* ---------- restauration du brouillon (confort local, non partagé) ---------- */
+try{
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if(saved){
+    const p = JSON.parse(saved);
+    state.linkedin = p.linkedin || ''; state.github = p.github || ''; state.website = p.website || '';
+    document.getElementById('linkedin').value = state.linkedin;
+    document.getElementById('github').value = state.github;
+    document.getElementById('website').value = state.website;
+  }
+}catch(e){ /* pas de brouillon disponible */ }
+
+/* ---------- upload CV ---------- */
+const dropzone = document.getElementById('dropzone');
+const fileInput = document.getElementById('fileInput');
+const fileCard = document.getElementById('fileCard');
+const fileName = document.getElementById('fileName');
+const fileSize = document.getElementById('fileSize');
+const fileIcon = document.getElementById('fileIcon');
+const fileRemove = document.getElementById('fileRemove');
+
+function humanSize(bytes){
+  if(bytes < 1024) return bytes + ' o';
+  if(bytes < 1024*1024) return (bytes/1024).toFixed(0) + ' Ko';
+  return (bytes/(1024*1024)).toFixed(1) + ' Mo';
+}
+function extOf(name){
+  const m = /\.([a-z0-9]+)$/i.exec(name || '');
+  return m ? m[1].toUpperCase() : 'DOC';
+}
+function showFile(file){
+  state.fileName = file.name; state.fileSize = file.size;
+  fileName.textContent = file.name;
+  fileSize.textContent = humanSize(file.size);
+  fileIcon.textContent = extOf(file.name);
+  fileCard.style.display = 'flex';
+  dropzone.style.display = 'none';
+}
+function clearFile(){
+  state.fileName = null; state.fileSize = null;
+  fileInput.value = '';
+  fileCard.style.display = 'none';
+  dropzone.style.display = 'block';
+}
+
+dropzone.addEventListener('click', () => fileInput.click());
+dropzone.addEventListener('keydown', e => { if(e.key === 'Enter' || e.key === ' ') fileInput.click(); });
+fileInput.addEventListener('change', e => { if(e.target.files[0]) showFile(e.target.files[0]); });
+fileRemove.addEventListener('click', clearFile);
+
+['dragenter','dragover'].forEach(ev => dropzone.addEventListener(ev, e => { e.preventDefault(); dropzone.classList.add('drag'); }));
+['dragleave','drop'].forEach(ev => dropzone.addEventListener(ev, e => { e.preventDefault(); dropzone.classList.remove('drag'); }));
+dropzone.addEventListener('drop', e => { if(e.dataTransfer.files[0]) showFile(e.dataTransfer.files[0]); });
+
+/* ---------- validation des liens ---------- */
+function validateUrlField(id, domainHint){
+  const input = document.getElementById(id);
+  const wrap = document.getElementById('wrap-' + id);
+  const hint = document.getElementById('hint-' + id);
+  const val = input.value.trim();
+  wrap.classList.remove('valid','invalid');
+  hint.textContent = '';
+  if(!val) return true;
+  const looksLikeUrl = /^(https?:\/\/)?([\w-]+\.)+[\w-]{2,}(\/\S*)?$/i.test(val);
+  if(!looksLikeUrl){ wrap.classList.add('invalid'); hint.textContent = 'Format de lien invalide.'; return false; }
+  if(domainHint && !val.toLowerCase().includes(domainHint)){
+    wrap.classList.add('invalid'); hint.textContent = `Ce lien ne semble pas pointer vers ${domainHint}.`; return false;
+  }
+  wrap.classList.add('valid');
+  return true;
+}
+['linkedin','github','website'].forEach(id => {
+  document.getElementById(id).addEventListener('input', () => {
+    validateUrlField(id, id === 'linkedin' ? 'linkedin.' : id === 'github' ? 'github.' : null);
+  });
+});
+
+/* ---------- enregistrement ---------- */
+const form = document.getElementById("cvForm");
+const saveBtn = document.getElementById("saveBtn");
+const exportBtn = document.getElementById("exportBtn");
+const status = document.getElementById("status");
+
+let result = null;
+
+
+// Envoi du formulaire
+form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    saveBtn.disabled = true;
+    saveBtn.textContent = "Envoi...";
+
+    try {
+        const response = await fetch("/upload", {
+            method: "POST",
+            body: formData
+        });
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error("Erreur serveur :", errorText);
+            alert(`Erreur serveur : ${response.status}`);
+            return;
+        }
+
+        const data = await response.json();
+
+        console.log("Résultat reçu :", data);
+
+        result = data;
+        localStorage.setItem("user", JSON.stringify(result));
+        window.location.assign("Portfolio.html");
+        // localStorage.setItem("user", JSON.stringify(result));
+        // window.location.href = "Abdessamad AMTOUG — Portfolio.html";
+
+        status.classList.add("show");
+        exportBtn.disabled = false;
+
+    } catch (error) {
+        console.error("Erreur :", error);
+        alert("Erreur lors de l'envoi du CV.");
+    } finally {
+        saveBtn.disabled = false;
+        saveBtn.textContent = "Enregistrer mes informations";
+    }
+});
+
+
+// Export JSON
+exportBtn.addEventListener("click", () => {
+
+    if (!result) return;
+
+    const json = JSON.stringify(result, null, 2);
+
+    const blob = new Blob(
+        [json],
+        { type: "application/json" }
+    );
+
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "profil-candidature.json";
+    a.click();
+
+    URL.revokeObjectURL(url);
+});
+</script>
+</body>
+</html>

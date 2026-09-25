@@ -1,0 +1,61 @@
+IMANE SAIDI  
+DATA & AI CONSULTANT  
+Data Science · AI · Analytics · Python · SQL · Generative AI
+
+Rabat, Maroc  
++212 600 000 116  
+imane.saidi@example.com  
+LinkedIn · Portfolio
+
+PROFIL  
+Consultante Data & AI avec une formation en Data Science et une expérience dans l’analyse de données et la conception de solutions d’intelligence artificielle. Habituée à traduire des problématiques métier en solutions techniques exploitables.
+
+EXPÉRIENCE
+
+Consulting Data — AI Consultant  
+Rabat | 2025–2026  
+— Analyse des besoins métiers liés aux données.  
+— Conception de prototypes Data et IA.  
+— Préparation et analyse de datasets.  
+— Présentation des résultats aux parties prenantes.  
+— Expérimentation de solutions basées sur les LLM.
+
+DataWorks — Data Analyst  
+Rabat | 2024–2025  
+— Analyse de données clients.  
+— Automatisation de rapports.  
+— Développement de dashboards.
+
+FORMATION
+
+Master — Data Science  
+Université Mohammed V | 2024–2026
+
+Licence — Économie et Data  
+Université Mohammed V | 2021–2024
+
+COMPÉTENCES
+
+Data  
+Python, SQL, Pandas, statistiques
+
+AI  
+Machine Learning, LLM, RAG, NLP
+
+BI  
+Power BI, Excel, data visualization
+
+Tools  
+Git, Docker, Jupyter
+
+PROJETS
+
+AI Document Assistant  
+Prototype d’assistant permettant d’extraire et rechercher des informations dans des documents.
+
+Customer Analytics  
+Analyse des comportements clients et création de segments.
+
+LANGUES
+
+Arabe : Langue maternelle | Français : Courant | Anglais : Courant

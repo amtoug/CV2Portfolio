@@ -1,0 +1,65 @@
+YASSINE BENALI  
+AI ENGINEER | GENERATIVE AI DEVELOPER  
+Python · LLM · RAG · NLP · LangChain · FastAPI
+
+Rabat, Maroc  
++212 600 000 102  
+yassine.benali@example.com  
+LinkedIn · GitHub
+
+PROFIL  
+Ingénieur IA orienté développement d’applications basées sur les modèles de langage. Expérience dans l’intégration de LLM, systèmes RAG, embeddings et APIs. Habitué à développer des prototypes IA avec Python et à les exposer sous forme de services web.
+
+EXPÉRIENCE
+
+AI Factory — AI Engineer  
+Rabat | 2025–2026  
+— Développement d’assistants conversationnels utilisant des LLM.  
+— Mise en place de pipelines RAG pour la recherche documentaire.  
+— Génération et stockage d’embeddings.  
+— Intégration de modèles via APIs et modèles open source.  
+— Développement d’API REST avec FastAPI.  
+— Conteneurisation des applications avec Docker.
+
+Digital Maroc — Python Developer  
+Casablanca | 2023–2025  
+— Développement d’applications backend avec Python.  
+— Conception d’API REST et intégration de bases PostgreSQL.  
+— Automatisation de traitements de données.
+
+FORMATION
+
+Master — Intelligence Artificielle et Data Science  
+Université Mohammed V | 2023–2025
+
+Licence — Informatique  
+Université Hassan II | 2020–2023
+
+COMPÉTENCES
+
+Generative AI  
+LLM, RAG, embeddings, prompt engineering, LangChain, LangGraph
+
+NLP  
+Transformers, BERT, tokenisation, classification de texte
+
+Backend  
+Python, FastAPI, REST, PostgreSQL, MongoDB
+
+DevOps  
+Docker, Git, GitHub Actions
+
+Machine Learning  
+Scikit-learn, Pandas, NumPy
+
+PROJETS
+
+Assistant documentaire RAG  
+Création d’un assistant capable de rechercher des informations dans des documents PDF avant de générer une réponse.
+
+Chatbot spécialisé  
+Développement d’un chatbot utilisant un LLM et une base vectorielle pour répondre à des questions métier.
+
+LANGUES
+
+Arabe : Langue maternelle | Français : Courant | Anglais : Courant

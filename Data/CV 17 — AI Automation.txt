@@ -1,0 +1,61 @@
+SAMIR EL KADIRI  
+AI AUTOMATION ENGINEER  
+Python · APIs · LLM · Automation · FastAPI · Docker
+
+Mohammedia, Maroc  
++212 600 000 117  
+samir.kadiri@example.com  
+GitHub · LinkedIn
+
+PROFIL  
+AI Automation Engineer spécialisé dans l’automatisation de tâches métier grâce à Python, aux APIs et aux modèles de langage. Expérience dans la conception de workflows automatisés et l’intégration de services IA.
+
+EXPÉRIENCE
+
+AutomationAI — AI Automation Engineer  
+Mohammedia | 2025–2026  
+— Automatisation de processus métier avec Python.  
+— Intégration de services LLM via API.  
+— Développement d’APIs FastAPI.  
+— Extraction automatique d’informations depuis des documents.  
+— Conteneurisation des applications.
+
+Automatech — Python Developer  
+Mohammedia | 2024–2025  
+— Développement de scripts d’automatisation.  
+— Connexion à des APIs externes.  
+— Traitement de fichiers CSV, Excel et JSON.
+
+FORMATION
+
+Master — Data Science & AI  
+Université Hassan II | 2024–2026
+
+Licence — Informatique  
+Université Hassan II | 2021–2024
+
+COMPÉTENCES
+
+Automation  
+Python, APIs, REST, JSON, webhooks
+
+AI  
+LLM, RAG, prompt engineering, NLP
+
+Backend  
+FastAPI, PostgreSQL, MongoDB
+
+DevOps  
+Docker, Git, Linux
+
+PROJETS
+
+Automated CV Screening  
+Pipeline permettant d’extraire automatiquement des informations structurées depuis des CV.
+
+Email Classification  
+Classification automatique de messages et génération de réponses avec un modèle de langage.
+
+LANGUES
+
+Arabe : Courant | Français : B2 | Anglais : B2

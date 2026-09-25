@@ -1,0 +1,61 @@
+AYA BENJELLOUN  
+SOFTWARE ENGINEER | FULL-STACK DEVELOPER  
+Java · Spring Boot · React · PostgreSQL · REST · Git
+
+Casablanca, Maroc  
++212 600 000 113  
+aya.benjelloun@example.com  
+LinkedIn · GitHub
+
+PROFIL  
+Software Engineer spécialisée dans le développement d’applications web et de services backend. Expérience en Java, Spring Boot, React, bases de données relationnelles et conception d’APIs REST.
+
+EXPÉRIENCE
+
+SoftDev Maroc — Software Engineer  
+Casablanca | 2024–2026  
+— Développement de services backend avec Spring Boot.  
+— Conception d’APIs REST.  
+— Développement d’interfaces React.  
+— Gestion de bases PostgreSQL.  
+— Participation aux tests et revues de code.
+
+WebFactory — Software Developer Intern  
+Casablanca | 2023–2024  
+— Développement de composants web.  
+— Correction de bugs.  
+— Création de requêtes SQL.
+
+FORMATION
+
+Master — Software Engineering  
+Université Hassan II | 2024–2026
+
+Licence — Informatique  
+Université Hassan II | 2021–2024
+
+COMPÉTENCES
+
+Backend  
+Java, Spring Boot, REST API
+
+Frontend  
+React, JavaScript, HTML, CSS
+
+Data  
+PostgreSQL, MySQL, MongoDB
+
+Tools  
+Git, GitHub, Docker, Maven
+
+PROJETS
+
+Gestion des ressources humaines  
+Application web permettant de gérer employés, congés et absences.
+
+Plateforme e-commerce  
+Développement d’un backend Spring Boot et d’une interface React.
+
+LANGUES
+
+Arabe : Courant | Français : Courant | Anglais : B2

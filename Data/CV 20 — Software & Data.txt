@@ -1,0 +1,71 @@
+AYOUB MOKHTARI  
+SOFTWARE & DATA ENGINEER  
+Python · SQL · APIs · Data Engineering · Machine Learning
+
+Béni Mellal, Maroc  
++212 600 000 120  
+ayoub.mokhtari@example.com  
+LinkedIn · GitHub · Portfolio
+
+PROFIL  
+Software & Data Engineer avec une double compétence en développement logiciel et traitement de données. Expérience en Python, SQL, APIs, automatisation et Machine Learning. Intérêt pour la conception de solutions data robustes et maintenables.
+
+EXPÉRIENCE
+
+DataSoft — Software & Data Engineer  
+Béni Mellal | 2025–2026  
+— Développement de services Python pour le traitement des données.  
+— Conception d’APIs REST avec FastAPI.  
+— Développement de pipelines de préparation de données.  
+— Gestion de bases PostgreSQL et MongoDB.  
+— Intégration de modèles de Machine Learning.
+
+TechServices — Developer  
+Béni Mellal | 2022–2025  
+— Développement d’applications métier.  
+— Gestion de bases SQL Server.  
+— Maintenance et évolution d’applications existantes.  
+— Développement de fonctionnalités backend.
+
+FORMATION
+
+Master — Data Science & Information Systems  
+Université Sultan Moulay Slimane | 2024–2026
+
+Licence — Informatique  
+Université Sultan Moulay Slimane | 2021–2024
+
+Technicien Spécialisé — Développement Informatique  
+OFPPT | 2019–2021
+
+COMPÉTENCES
+
+Programming  
+Python, C#, Java, SQL
+
+Data Engineering  
+Pandas, NumPy, ETL, PostgreSQL, MongoDB, SQL Server
+
+Machine Learning  
+Scikit-learn, classification, régression, clustering
+
+Backend  
+FastAPI, REST API
+
+DevOps  
+Docker, Git, GitHub Actions
+
+PROJETS
+
+Data Processing API  
+Développement d’une API permettant de charger, nettoyer, transformer et exporter des datasets.
+
+ML Prediction Service  
+Déploiement d’un modèle de Machine Learning sous forme d’API FastAPI.
+
+Application de gestion  
+Développement d’une application de gestion des employés avec C# et SQL Server.
+
+LANGUES
+
+Arabe : Courant | Français : B2 | Anglais : B1

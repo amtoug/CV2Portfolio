@@ -1,0 +1,71 @@
+ABDESSAMAD AMTOUG
+DATA SCIENTIST | AI ENGINEER
+Python · Machine Learning · Deep Learning · LLM · RAG · MLOps · Cloud
+Maroc 
++212 633074624 
+LinkedIn
+GitHub
+amtougabdessamad@gmail.com
+Portfolio
+Profil
+Diplômé d’un Master d’Excellence en Data Science et Sécurité des Systèmes d’Information, avec une spécia
+lisation en Data Science, Machine Learning et Intelligence Artificielle. Expérience pratique en Python, modé
+lisation statistique, Deep Learning, NLP, Computer Vision, LLM/RAG et MLOps, avec mise en oeuvre de
+solutions IA via FastAPI, Docker et Cloud. Connaissances en Azure, Big Data et Kubernetes.
+Expérience
+Skoolution– AI & API Engineer
+Projet de fin d’études– AutoCorrExam
+2026
+— Conception et développement d’une solution IA pour l’automatisation de l’analyse et de la correction de copies d’exa
+mens manuscrites.
+— Développement d’un pipeline combinant OCR, traitement de données, parsing, correction, évaluation et
+génération de rapports.
+— Intégration de LLM, RAG et modèles multimodaux dans une architecture multi-agents orchestrée avec Lang
+Graph.
+— Développement d’API avec Python/FastAPI et gestion des données avec PostgreSQL/pgvector et MongoDB.
+— Industrialisation et conteneurisation avec Docker, avec déploiement sur OVHcloud.
+Faculté Polydisciplinaire de Béni Mellal– Développeur
+2021–2022
+Développement d’une plateforme web de gestion des soutenances doctorales avec PHP/FPDF, avec prise en compte de
+la sécurité applicative : XSS, SQL Injection et CSRF.
+Commune d’El Ksiba– Développeur
+Développement d’une application de gestion des employés et stagiaires avec C# et SQL Server.
+Formation
+Master d’Excellence– Data Science & Sécurité des Systèmes d’Information
+Faculté Polydisciplinaire de Béni Mellal– Université Sultan Moulay Slimane
+Licence d’Excellence– Data Science & Sécurité des Systèmes d’Information
+Faculté Polydisciplinaire de Béni Mellal– Université Sultan Moulay Slimane
+Technicien Spécialisé– Développement Informatique
+OFPPT– ISTA NTIC, Béni Mellal
+Compétences
+Data Science / ML
+2020
+2024–2026
+2023–2024
+2018–2020
+Python, Scikit-learn, Pandas, NumPy, statistiques, feature engineering, classification,
+régression, clustering, PCA, optimisation et évaluation des modèles
+Deep Learning
+NLP / Computer Vision
+Cloud / DevOps
+Data / Big Data
+PyTorch, TensorFlow, Keras, LSTM, Transformers, Vision Transformer (ViT), fine
+tuning
+NLP, DistilBERT, LLM, RAG, embeddings, OCR, Computer Vision, modèles multi
+modaux, LangGraph
+Azure (connaissances de base), Docker, Kubernetes (connaissances de base), GitHub
+Actions, CI/CD, MLOps, MLflow, DVC, Git, GitHub
+Analyse et nettoyage des données, SQL, séries temporelles, ARIMA, SARIMA, visua
+lisation avec Matplotlib et Seaborn, Big Data (connaissances de base)
+Backend / Data Engineering FastAPI, REST API, PostgreSQL, pgvector, MongoDB, SQL Server
+Projets
+Pipeline MLOps– Machine Learning
+Mise en place d’un pipeline ML couvrant préparation des données, entraînement, évaluation, suivi des expé
+riences et déploiement, avec DVC, MLflow, FastAPI, Docker et GitHub Actions.
+Prévision énergétique– Eco2mix & Chronos
+Analyse et nettoyage de données énergétiques, réduction de dimension avec PCA et comparaison de modèles ARIMA,
+SARIMA et LSTM. Fine-tuning de Chronos pour la prévision de séries temporelles.
+Computer Vision– Segmentation d’images
+Segmentation du dataset Oxford-IIIT Pet avec Vision Transformer (ViT) et techniques d’augmentation de données.
+Langues
+Arabe : Courant | Français : B2 | Anglais : Intermédiair

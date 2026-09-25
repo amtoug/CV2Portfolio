@@ -1,0 +1,61 @@
+NOUR EL HOUDA CHERKAOUI  
+NLP ENGINEER | LANGUAGE AI  
+Python · NLP · Transformers · BERT · LLM · RAG
+
+Casablanca, Maroc  
++212 600 000 105  
+nour.cherkaoui@example.com  
+LinkedIn · GitHub
+
+PROFIL  
+Ingénieure NLP spécialisée dans le traitement automatique du langage et les applications basées sur les Transformers. Expérience en classification de texte, extraction d’informations, embeddings et intégration de modèles de langage.
+
+EXPÉRIENCE
+
+LanguageAI — NLP Engineer  
+Casablanca | 2025–2026  
+— Développement de modèles de classification de documents.  
+— Fine-tuning de modèles BERT pour des tâches NLP.  
+— Mise en place de pipelines de preprocessing textuel.  
+— Génération d’embeddings et recherche sémantique.  
+— Évaluation des performances des modèles.
+
+TextLab — AI Intern  
+Rabat | 2024–2025  
+— Nettoyage et annotation de corpus textuels.  
+— Expérimentation de modèles Transformers.  
+— Développement de scripts Python pour le traitement de textes.
+
+FORMATION
+
+Master — NLP & Artificial Intelligence  
+Université Mohammed VI Polytechnique | 2024–2026
+
+Licence — Informatique  
+Université Ibn Tofail | 2021–2024
+
+COMPÉTENCES
+
+NLP  
+Python, NLTK, spaCy, Transformers, BERT, embeddings
+
+LLM  
+RAG, prompt engineering, LLM APIs
+
+Machine Learning  
+Scikit-learn, PyTorch, classification
+
+Backend  
+FastAPI, REST, Docker
+
+PROJETS
+
+Classification automatique de documents  
+Classification de documents administratifs avec BERT.
+
+Recherche sémantique  
+Création d’un moteur de recherche basé sur les embeddings.
+
+LANGUES
+
+Arabe : Langue maternelle | Français : Courant | Anglais : B2

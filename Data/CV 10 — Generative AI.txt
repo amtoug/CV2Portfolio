@@ -1,0 +1,64 @@
+SARA AMRANI  
+GENERATIVE AI ENGINEER | LLM & RAG  
+Python · LLM · RAG · Agents · Embeddings · Vector Databases
+
+Casablanca, Maroc  
++212 600 000 110  
+sara.amrani@example.com  
+LinkedIn · GitHub · Portfolio
+
+PROFIL  
+Ingénieure en Intelligence Artificielle spécialisée dans les applications de Generative AI. Expérience dans la conception de systèmes RAG, l’intégration de LLM et le développement d’agents capables d’orchestrer plusieurs étapes de traitement.
+
+EXPÉRIENCE
+
+GenAI Studio — Generative AI Engineer  
+Casablanca | 2025–2026  
+— Développement d’applications basées sur des LLM.  
+— Conception de systèmes RAG avec embeddings et bases vectorielles.  
+— Création de workflows multi-agents.  
+— Évaluation de la qualité des réponses générées.  
+— Développement de services Python avec FastAPI.
+
+DataMind — AI Intern  
+Casablanca | 2024–2025  
+— Préparation de données textuelles.  
+— Expérimentation de modèles de langage.  
+— Développement de prototypes conversationnels.
+
+FORMATION
+
+Master — Data Science & Artificial Intelligence  
+Université Hassan II | 2024–2026
+
+Licence — Informatique  
+Université Hassan II | 2021–2024
+
+COMPÉTENCES
+
+Generative AI  
+LLM, RAG, prompt engineering, agents, embeddings
+
+Frameworks  
+LangChain, LangGraph, Hugging Face
+
+Backend  
+Python, FastAPI, REST
+
+Data  
+PostgreSQL, pgvector, MongoDB
+
+DevOps  
+Docker, Git
+
+PROJETS
+
+Assistant RAG juridique  
+Application permettant d’interroger une base documentaire et de fournir des réponses contextualisées.
+
+Multi-Agent Research Assistant  
+Architecture composée de plusieurs agents spécialisés dans la recherche, l’analyse et la synthèse d’informations.
+
+LANGUES
+
+Arabe : Langue maternelle | Français : Courant | Anglais : Courant

@@ -1,0 +1,61 @@
+HIBA EL IDRISSI  
+DATA ANALYST | BUSINESS INTELLIGENCE  
+SQL · Python · Power BI · Excel · Statistics · Data Visualization
+
+Agadir, Maroc  
++212 600 000 108  
+hiba.idrissi@example.com  
+LinkedIn · Portfolio
+
+PROFIL  
+Data Analyst spécialisée dans l’analyse exploratoire, la visualisation des données et la création de tableaux de bord. Capacité à transformer des données brutes en indicateurs utiles à la prise de décision.
+
+EXPÉRIENCE
+
+Business Insights — Data Analyst  
+Agadir | 2024–2026  
+— Analyse de données commerciales et opérationnelles.  
+— Création de dashboards Power BI.  
+— Développement de requêtes SQL.  
+— Automatisation de rapports avec Python.  
+— Identification d’anomalies et tendances.
+
+Agadir Consulting — Junior Analyst  
+Agadir | 2023–2024  
+— Préparation et nettoyage de données.  
+— Création de rapports Excel.  
+— Analyse descriptive des indicateurs.
+
+FORMATION
+
+Master — Business Intelligence & Data Analytics  
+Université Ibn Zohr | 2024–2026
+
+Licence — Économie et Data Analytics  
+Université Ibn Zohr | 2021–2024
+
+COMPÉTENCES
+
+Data Analysis  
+Python, Pandas, NumPy, statistiques
+
+BI  
+Power BI, DAX, Excel, dashboards
+
+Data  
+SQL, PostgreSQL, MySQL
+
+Visualisation  
+Matplotlib, Seaborn, Power BI
+
+PROJETS
+
+Dashboard commercial  
+Création d’un tableau de bord Power BI pour suivre les ventes et performances régionales.
+
+Analyse clients  
+Segmentation des clients selon leurs comportements d’achat.
+
+LANGUES
+
+Arabe : Courant | Français : B2 | Anglais : B1

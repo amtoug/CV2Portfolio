@@ -1,0 +1,61 @@
+KARIM EL FASSI  
+PYTHON BACKEND DEVELOPER | AI APPLICATIONS  
+Python · FastAPI · Django · PostgreSQL · REST · Docker
+
+Meknès, Maroc  
++212 600 000 109  
+karim.fassi@example.com  
+GitHub · LinkedIn
+
+PROFIL  
+Développeur backend Python avec une expérience dans la conception d’APIs REST et de services web. Intérêt particulier pour l’intégration de fonctionnalités d’intelligence artificielle dans les applications backend.
+
+EXPÉRIENCE
+
+SoftFactory — Python Developer  
+Meknès | 2024–2026  
+— Développement d’APIs REST avec FastAPI.  
+— Conception de services backend avec Django.  
+— Gestion de bases PostgreSQL.  
+— Intégration d’APIs externes.  
+— Conteneurisation des applications avec Docker.
+
+WebSystems — Backend Intern  
+Meknès | 2023–2024  
+— Développement de fonctionnalités backend.  
+— Correction de bugs et tests unitaires.  
+— Création de requêtes SQL.
+
+FORMATION
+
+Licence Professionnelle — Développement Logiciel  
+Université Moulay Ismail | 2022–2024
+
+DUT — Informatique  
+EST Meknès | 2020–2022
+
+COMPÉTENCES
+
+Backend  
+Python, FastAPI, Django, REST API
+
+Bases de données  
+PostgreSQL, MySQL, MongoDB
+
+DevOps  
+Docker, Git, Linux, CI/CD
+
+AI  
+OpenAI APIs, LLM, RAG, embeddings
+
+PROJETS
+
+API de traitement documentaire  
+API FastAPI permettant d’extraire et structurer des informations depuis des documents.
+
+Service RAG  
+Backend permettant de rechercher des documents et de générer des réponses contextualisées.
+
+LANGUES
+
+Arabe : Courant | Français : B2 | Anglais : B2

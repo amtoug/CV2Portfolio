@@ -1,0 +1,64 @@
+RACHID TAZI  
+CLOUD & DEVOPS ENGINEER  
+AWS · Azure · Docker · Kubernetes · Terraform · CI/CD
+
+Tanger, Maroc  
++212 600 000 112  
+rachid.tazi@example.com  
+LinkedIn · GitHub
+
+PROFIL  
+Cloud & DevOps Engineer spécialisé dans l’automatisation des déploiements et la gestion d’environnements conteneurisés. Expérience avec Docker, Kubernetes, CI/CD et services cloud.
+
+EXPÉRIENCE
+
+CloudOps — DevOps Engineer  
+Tanger | 2024–2026  
+— Mise en place de pipelines CI/CD.  
+— Déploiement d’applications Dockerisées.  
+— Gestion de clusters Kubernetes.  
+— Automatisation de l’infrastructure avec Terraform.  
+— Surveillance des services et résolution d’incidents.
+
+TechCloud — Cloud Intern  
+Tanger | 2023–2024  
+— Configuration de machines virtuelles.  
+— Automatisation de tâches système.  
+— Gestion de ressources cloud.
+
+FORMATION
+
+Master — Cloud Computing  
+Université Abdelmalek Essaâdi | 2024–2026
+
+Licence — Réseaux et Systèmes  
+Université Abdelmalek Essaâdi | 2021–2024
+
+COMPÉTENCES
+
+Cloud  
+AWS, Azure, OVHcloud
+
+DevOps  
+Docker, Kubernetes, Terraform, CI/CD
+
+Systèmes  
+Linux, Bash
+
+Monitoring  
+Prometheus, Grafana
+
+Programmation  
+Python, YAML
+
+PROJETS
+
+Infrastructure Cloud  
+Déploiement automatisé d’une architecture web avec Terraform.
+
+CI/CD Pipeline  
+Création d’un pipeline GitHub Actions pour tester et déployer automatiquement une application Docker.
+
+LANGUES
+
+Arabe : Courant | Français : Courant | Anglais : B2

@@ -1,0 +1,61 @@
+NABIL OTHMANI  
+AI RESEARCH ENGINEER | DEEP LEARNING  
+Python · PyTorch · Transformers · Computer Vision · NLP
+
+Marrakech, Maroc  
++212 600 000 119  
+nabil.othmani@example.com  
+Google Scholar · GitHub · LinkedIn
+
+PROFIL  
+Ingénieur IA orienté recherche et expérimentation en Deep Learning. Intérêt pour les architectures Transformers, la vision par ordinateur, le traitement du langage et l’évaluation expérimentale des modèles.
+
+EXPÉRIENCE
+
+AI Research Lab — Research Engineer  
+Marrakech | 2025–2026  
+— Implémentation et comparaison de modèles Deep Learning.  
+— Conception d’expériences reproductibles.  
+— Analyse des performances et interprétation des résultats.  
+— Expérimentation avec les architectures Transformers.  
+— Documentation des résultats expérimentaux.
+
+Vision Research Group — Research Intern  
+Marrakech | 2024–2025  
+— Préparation de datasets image.  
+— Entraînement de modèles CNN.  
+— Analyse des métriques de classification.
+
+FORMATION
+
+Master — Artificial Intelligence  
+Université Cadi Ayyad | 2024–2026
+
+Licence — Informatique  
+Université Cadi Ayyad | 2021–2024
+
+COMPÉTENCES
+
+Deep Learning  
+PyTorch, TensorFlow, CNN, RNN, LSTM, Transformers
+
+Computer Vision  
+OpenCV, segmentation, classification
+
+NLP  
+BERT, embeddings, text classification
+
+Research  
+Python, Jupyter, experiment tracking, statistical evaluation
+
+PROJETS
+
+Vision Transformer Benchmark  
+Comparaison de plusieurs architectures de vision sur un dataset d’images.
+
+Transformer NLP  
+Fine-tuning d’un modèle Transformer pour la classification de textes.
+
+LANGUES
+
+Arabe : Courant | Français : B2 | Anglais : Courant

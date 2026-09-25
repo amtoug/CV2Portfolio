@@ -1,0 +1,64 @@
+OUMAIMA ROUANI  
+FULL-STACK DEVELOPER | AI ENGINEER  
+Python · React · FastAPI · LLM · PostgreSQL · Docker
+
+Fès, Maroc  
++212 600 000 118  
+oumaima.rouani@example.com  
+LinkedIn · GitHub · Portfolio
+
+PROFIL  
+Développeuse Full-Stack avec une spécialisation en intégration de fonctionnalités d’intelligence artificielle dans les applications web. Expérience en Python, React, FastAPI, bases de données et APIs de modèles de langage.
+
+EXPÉRIENCE
+
+Digital Factory — Full-Stack AI Developer  
+Fès | 2025–2026  
+— Développement d’applications web avec React et FastAPI.  
+— Intégration de fonctionnalités LLM.  
+— Conception de bases PostgreSQL.  
+— Création d’APIs REST.  
+— Déploiement avec Docker.
+
+WebSolutions — Web Developer  
+Fès | 2023–2025  
+— Développement de sites et applications web.  
+— Création de composants frontend.  
+— Développement de services backend.
+
+FORMATION
+
+Master — Software Engineering & AI  
+Université Sidi Mohamed Ben Abdellah | 2024–2026
+
+Licence — Développement Web  
+Université Sidi Mohamed Ben Abdellah | 2021–2024
+
+COMPÉTENCES
+
+Frontend  
+React, JavaScript, HTML, CSS
+
+Backend  
+Python, FastAPI, Node.js, REST
+
+AI  
+LLM, RAG, embeddings, NLP
+
+Data  
+PostgreSQL, MongoDB
+
+DevOps  
+Docker, Git
+
+PROJETS
+
+AI Knowledge Platform  
+Application web permettant d’interroger une base documentaire avec un système RAG.
+
+Task Management Platform  
+Application collaborative avec authentification, API REST et base PostgreSQL.
+
+LANGUES
+
+Arabe : Courant | Français : Courant | Anglais : B2

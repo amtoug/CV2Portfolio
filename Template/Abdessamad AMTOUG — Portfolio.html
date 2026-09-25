@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>Abdessamad AMTOUG — Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --paper:#EDEEE7;
+  --paper-2:#E4E5DC;
+  --ink:#1B2430;
+  --ink-soft:#4B5563;
+  --rust:#A85C32;
+  --teal:#33646A;
+  --line:rgba(27,36,48,0.12);
+  --line-soft:rgba(27,36,48,0.07);
+  --card:#F6F6F1;
+}
+
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#14181C;
+    --paper-2:#191E23;
+    --ink:#EDEEE7;
+    --ink-soft:#A9B0B8;
+    --rust:#D08A5B;
+    --teal:#5FA3A9;
+    --line:rgba(237,238,231,0.14);
+    --line-soft:rgba(237,238,231,0.07);
+    --card:#191E23;
+  }
+}
+
+:root[data-theme="dark"]{
+  --paper:#14181C;
+  --paper-2:#191E23;
+  --ink:#EDEEE7;
+  --ink-soft:#A9B0B8;
+  --rust:#D08A5B;
+  --teal:#5FA3A9;
+  --line:rgba(237,238,231,0.14);
+  --line-soft:rgba(237,238,231,0.07);
+  --card:#191E23;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-padding-top:70px;
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:'Inter',system-ui,sans-serif;
+
+  background-image:
+    linear-gradient(var(--line-soft) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line-soft) 1px, transparent 1px);
+
+  background-size:36px 36px;
+}
+
+.wrap{
+  max-width:920px;
+  margin:0 auto;
+  padding:0 24px;
+}
+
+a{
+  color:var(--rust);
+}
+
+.mono{
+  font-family:'IBM Plex Mono',monospace;
+}
+
+/* ================= HEADER ================= */
+
+header{
+  border-bottom:1px solid var(--line);
+  background:var(--paper);
+  position:sticky;
+  top:0;
+  z-index:10;
+  backdrop-filter:blur(6px);
+}
+
+.nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:14px 24px;
+  max-width:920px;
+  margin:0 auto;
+  gap:16px;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  text-decoration:none;
+  color:var(--ink);
+}
+
+.logo-mark{
+  width:38px;
+  height:38px;
+  border:1.5px solid var(--ink);
+  border-radius:3px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-family:'Space Grotesk',sans-serif;
+  font-weight:700;
+  font-size:15px;
+  letter-spacing:-0.5px;
+
+  position:relative;
+  flex-shrink:0;
+}
+
+.logo-mark::after{
+  content:"";
+  position:absolute;
+  inset:4px;
+  border:1px solid var(--rust);
+  border-radius:2px;
+  opacity:.55;
+}
+
+.logo-text{
+  font-family:'Space Grotesk',sans-serif;
+  font-weight:600;
+  font-size:15px;
+  line-height:1.15;
+}
+
+.logo-text span{
+  display:block;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10.5px;
+  color:var(--ink-soft);
+  font-weight:400;
+  margin-top:1px;
+}
+
+nav.links{
+  display:flex;
+  gap:22px;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:13px;
+}
+
+nav.links a{
+  color:var(--ink-soft);
+  text-decoration:none;
+  border-bottom:1px solid transparent;
+}
+
+nav.links a:hover{
+  color:var(--rust);
+  border-color:var(--rust);
+}
+
+@media(max-width:640px){
+  nav.links{
+    display:none;
+  }
+}
+
+/* ================= HERO ================= */
+
+.hero{
+  padding:64px 0 48px;
+  border-bottom:1px solid var(--line);
+}
+
+.hero .eyebrow{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:13px;
+  color:var(--rust);
+  margin:0 0 14px;
+}
+
+h1{
+  font-family:'Space Grotesk',sans-serif;
+  font-size:clamp(34px,6vw,54px);
+  line-height:1.05;
+  margin:0 0 10px;
+  font-weight:600;
+  letter-spacing:-0.5px;
+  max-width:14ch;
+}
+
+.role{
+  font-size:19px;
+  color:var(--ink-soft);
+  margin:0 0 22px;
+  max-width:52ch;
+}
+
+.meta-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px 22px;
+
+  font-family:'IBM Plex Mono',monospace;
+  font-size:13px;
+  color:var(--ink-soft);
+
+  margin-bottom:26px;
+}
+
+.meta-row span{
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+
+.meta-row a{
+  text-decoration:none;
+}
+
+.cta-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+.btn{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:13px;
+
+  padding:11px 18px;
+
+  border-radius:3px;
+  text-decoration:none;
+
+  border:1px solid var(--ink);
+  color:var(--ink);
+
+  transition:background .15s,color .15s;
+}
+
+.btn.primary{
+  background:var(--ink);
+  color:var(--paper);
+}
+
+.btn.primary:hover{
+  background:var(--rust);
+  border-color:var(--rust);
+  color:#fff;
+}
+
+.btn:not(.primary):hover{
+  background:var(--line-soft);
+}
+
+/* ================= SECTIONS ================= */
+
+section{
+  padding:52px 0;
+  border-bottom:1px solid var(--line);
+}
+
+.sec-head{
+  display:flex;
+  align-items:baseline;
+  gap:14px;
+  margin-bottom:28px;
+}
+
+.sec-num{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:13px;
+  color:var(--rust);
+}
+
+h2{
+  font-family:'Space Grotesk',sans-serif;
+  font-size:24px;
+  font-weight:600;
+  margin:0;
+}
+
+.summary-text{
+  font-size:17px;
+  line-height:1.7;
+  color:var(--ink-soft);
+  max-width:62ch;
+}
+
+/* ================= SKILLS ================= */
+
+.skill-groups{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:24px;
+}
+
+.skill-group h3{
+  font-family:'IBM Plex Mono',monospace;
+  font-weight:500;
+  font-size:13px;
+  color:var(--ink-soft);
+  margin:0 0 12px;
+}
+
+.tag-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.tag{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12.5px;
+
+  padding:6px 11px;
+
+  border:1px solid var(--line);
+  border-radius:3px;
+
+  color:var(--ink);
+}
+
+/* ================= TIMELINE ================= */
+
+.tl-item{
+  display:grid;
+  grid-template-columns:130px 1fr;
+  gap:18px;
+
+  padding:20px 0;
+
+  border-top:1px solid var(--line-soft);
+}
+
+.tl-item:first-child{
+  border-top:none;
+}
+
+.tl-period{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12.5px;
+  color:var(--ink-soft);
+  padding-top:3px;
+}
+
+.tl-role{
+  font-family:'Space Grotesk',sans-serif;
+  font-size:18px;
+  font-weight:600;
+  margin:0 0 3px;
+}
+
+.tl-org{
+  font-size:14.5px;
+  color:var(--rust);
+  margin:0 0 10px;
+}
+
+.tl-desc{
+  font-size:15px;
+  line-height:1.6;
+  color:var(--ink-soft);
+  margin:0 0 10px;
+  max-width:60ch;
+}
+
+@media(max-width:600px){
+  .tl-item{
+    grid-template-columns:1fr;
+  }
+}
+
+/* ================= PROJECTS ================= */
+
+.proj-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:16px;
+}
+
+.proj-card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:4px;
+  padding:20px;
+}
+
+.proj-card h3{
+  font-family:'Space Grotesk',sans-serif;
+  font-size:17px;
+  font-weight:600;
+  margin:0 0 8px;
+}
+
+.proj-card p{
+  font-size:14.5px;
+  line-height:1.6;
+  color:var(--ink-soft);
+  margin:0 0 14px;
+}
+
+.proj-links{
+  display:flex;
+  gap:14px;
+
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12.5px;
+}
+
+.proj-links a{
+  text-decoration:none;
+}
+
+.proj-links a:hover{
+  text-decoration:underline;
+}
+
+/* ================= CERTIFICATIONS / LANGUAGES ================= */
+
+.split{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:40px;
+}
+
+@media(min-width:720px){
+  .split{
+    grid-template-columns:1.3fr 1fr;
+  }
+}
+
+.cert-item{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+
+  padding:13px 0;
+
+  border-top:1px solid var(--line-soft);
+}
+
+.cert-item:first-child{
+  border-top:none;
+}
+
+.cert-name{
+  font-weight:600;
+  font-size:14.5px;
+}
+
+.cert-org{
+  font-size:13px;
+  color:var(--ink-soft);
+}
+
+.cert-date{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12.5px;
+  color:var(--ink-soft);
+  white-space:nowrap;
+}
+
+.lang-item{
+  display:flex;
+  justify-content:space-between;
+
+  padding:11px 0;
+
+  border-top:1px solid var(--line-soft);
+
+  font-size:14.5px;
+}
+
+.lang-item:first-child{
+  border-top:none;
+}
+
+.lang-level{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12.5px;
+  color:var(--rust);
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+  padding:40px 24px 48px;
+  text-align:center;
+}
+
+footer .wrap{
+  max-width:920px;
+}
+
+footer p{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12.5px;
+  color:var(--ink-soft);
+  margin:0;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+
+    <a class="logo" href="#top">
+      <span class="logo-mark">AA</span>
+
+      <span class="logo-text">
+        Abdessamad AMTOUG
+        <span>Portfolio</span>
+      </span>
+    </a>
+
+    <nav class="links">
+      <a href="#skills">Compétences</a>
+      <a href="#experience">Expérience</a>
+      <a href="#projects">Projets</a>
+      <a href="#education">Formation</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<main class="wrap" id="top">
+
+  <section class="hero" id="hero"></section>
+
+  <section id="summary"></section>
+
+  <section id="skills"></section>
+
+  <section id="experience"></section>
+
+  <section id="projects"></section>
+
+  <section id="education"></section>
+
+  <section id="certLang"></section>
+
+</main>
+
+
+<footer>
+  <div class="wrap">
+    <p id="footText"></p>
+  </div>
+</footer>
+
+
+<script>
+
+/* ============================================================
+   DONNÉES DU PORTFOLIO
+   ============================================================ */
+
+user = JSON.parse(localStorage.getItem("user"));
+PORTFOLIO_DATA=user.cv
+
+console.log(PORTFOLIO_DATA);
+/* ============================================================
+   MOTEUR DE RENDU
+   ============================================================ */
+
+function escapeHTML(value){
+
+  if(value === null || value === undefined){
+    return "";
+  }
+
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+
+/* ================= HERO ================= */
+
+function renderHero(d){
+
+  const h = document.getElementById("hero");
+
+  h.innerHTML = `
+
+    <p class="eyebrow mono">
+      Portfolio professionnel
+    </p>
+
+    <h1>
+      ${escapeHTML(d.name)}
+    </h1>
+
+    <p class="role">
+      ${escapeHTML(d.title)}
+    </p>
+
+    <div class="meta-row">
+
+      ${
+        d.location
+        ? `<span>${escapeHTML(d.location)}</span>`
+        : ""
+      }
+
+      ${
+        d.email
+        ? `
+          <span>
+            <a href="mailto:${escapeHTML(d.email)}">
+              ${escapeHTML(d.email)}
+            </a>
+          </span>
+        `
+        : ""
+      }
+
+      ${
+        d.phone
+        ? `<span>${escapeHTML(d.phone)}</span>`
+        : ""
+      }
+
+    </div>
+
+
+    <div class="cta-row">
+
+      ${
+        d.email
+        ? `
+          <a class="btn primary"
+             href="mailto:${escapeHTML(d.email)}">
+             Me contacter
+          </a>
+        `
+        : ""
+      }
+
+
+      ${
+        d.linkedin
+        ? `
+          <a class="btn"
+             href="${escapeHTML(d.linkedin)}"
+             target="_blank"
+             rel="noopener">
+             LinkedIn
+          </a>
+        `
+        : ""
+      }
+
+
+      ${
+        d.github
+        ? `
+          <a class="btn"
+             href="${escapeHTML(d.github)}"
+             target="_blank"
+             rel="noopener">
+             GitHub
+          </a>
+        `
+        : ""
+      }
+
+
+      ${
+        d.portfolio
+        ? `
+          <a class="btn"
+             href="${escapeHTML(d.portfolio)}"
+             target="_blank"
+             rel="noopener">
+             Portfolio
+          </a>
+        `
+        : ""
+      }
+
+    </div>
+
+  `;
+}
+
+
+/* ================= SUMMARY ================= */
+
+function renderSummary(d){
+
+  if(!d.summary){
+    return;
+  }
+
+  const s = document.getElementById("summary");
+
+  s.innerHTML = `
+
+    <div class="sec-head">
+
+      <span class="sec-num mono">
+        01
+      </span>
+
+      <h2>
+        Profil
+      </h2>
+
+    </div>
+
+
+    <p class="summary-text">
+      ${escapeHTML(d.summary)}
+    </p>
+
+  `;
+}
+
+
+/* ================= SKILLS ================= */
+
+function renderSkills(d){
+
+  if(!d.skills || !d.skills.length){
+    return;
+  }
+
+  const s = document.getElementById("skills");
+
+  s.innerHTML = `
+
+    <div class="sec-head">
+
+      <span class="sec-num mono">
+        02
+      </span>
+
+      <h2>
+        Compétences
+      </h2>
+
+    </div>
+
+
+    <div class="skill-groups">
+
+      <div class="skill-group">
+
+        <h3>
+          Compétences techniques
+        </h3>
+
+        <div class="tag-row">
+
+          ${d.skills
+            .map(skill => `
+              <span class="tag">
+                ${escapeHTML(skill)}
+              </span>
+            `)
+            .join("")
+          }
+
+        </div>
+
+      </div>
+
+    </div>
+
+  `;
+}
+
+
+/* ================= EXPERIENCE ================= */
+
+function renderExperience(d){
+
+  if(!d.experience || !d.experience.length){
+    return;
+  }
+
+  const s = document.getElementById("experience");
+
+  s.innerHTML = `
+
+    <div class="sec-head">
+
+      <span class="sec-num mono">
+        03
+      </span>
+
+      <h2>
+        Expérience
+      </h2>
+
+    </div>
+
+
+    ${d.experience
+      .map(e => `
+
+        <div class="tl-item">
+
+          <div class="tl-period mono">
+            ${escapeHTML(e.period || "")}
+          </div>
+
+
+          <div>
+
+            <p class="tl-role">
+              ${escapeHTML(e.role || "")}
+            </p>
+
+
+            <p class="tl-org">
+              ${escapeHTML(e.organization || "")}
+            </p>
+
+
+            ${
+              e.description
+              ? `
+                <p class="tl-desc">
+                  ${escapeHTML(e.description)}
+                </p>
+              `
+              : ""
+            }
+
+
+            ${
+              e.technologies && e.technologies.length
+              ? `
+                <div class="tag-row">
+
+                  ${e.technologies
+                    .map(t => `
+                      <span class="tag">
+                        ${escapeHTML(t)}
+                      </span>
+                    `)
+                    .join("")
+                  }
+
+                </div>
+              `
+              : ""
+            }
+
+          </div>
+
+        </div>
+
+      `)
+      .join("")
+    }
+
+  `;
+}
+
+
+/* ================= PROJECTS ================= */
+
+function renderProjects(d){
+
+  if(!d.projects || !d.projects.length){
+    return;
+  }
+
+  const s = document.getElementById("projects");
+
+  s.innerHTML = `
+
+    <div class="sec-head">
+
+      <span class="sec-num mono">
+        04
+      </span>
+
+      <h2>
+        Projets
+      </h2>
+
+    </div>
+
+
+    <div class="proj-grid">
+
+      ${d.projects
+        .map(p => `
+
+          <div class="proj-card">
+
+            <h3>
+              ${escapeHTML(p.name || "")}
+            </h3>
+
+
+            <p>
+              ${escapeHTML(p.description || "")}
+            </p>
+
+
+            ${
+              p.technologies && p.technologies.length
+              ? `
+                <div class="tag-row"
+                     style="margin-bottom:14px;">
+
+                  ${p.technologies
+                    .map(t => `
+                      <span class="tag">
+                        ${escapeHTML(t)}
+                      </span>
+                    `)
+                    .join("")
+                  }
+
+                </div>
+              `
+              : ""
+            }
+
+
+            <div class="proj-links">
+
+              ${
+                p.github
+                ? `
+                  <a href="${escapeHTML(p.github)}"
+                     target="_blank"
+                     rel="noopener">
+                     Code source
+                  </a>
+                `
+                : ""
+              }
+
+
+              ${
+                p.demo
+                ? `
+                  <a href="${escapeHTML(p.demo)}"
+                     target="_blank"
+                     rel="noopener">
+                     Démo
+                  </a>
+                `
+                : ""
+              }
+
+            </div>
+
+          </div>
+
+        `)
+        .join("")
+      }
+
+    </div>
+
+  `;
+}
+
+
+/* ================= EDUCATION ================= */
+
+function renderEducation(d){
+
+  if(!d.education || !d.education.length){
+    return;
+  }
+
+  const s = document.getElementById("education");
+
+  s.innerHTML = `
+
+    <div class="sec-head">
+
+      <span class="sec-num mono">
+        05
+      </span>
+
+      <h2>
+        Formation
+      </h2>
+
+    </div>
+
+
+    ${d.education
+      .map(e => `
+
+        <div class="tl-item">
+
+          <div class="tl-period mono">
+            ${escapeHTML(e.period || "")}
+          </div>
+
+
+          <div>
+
+            <p class="tl-role">
+
+              ${escapeHTML(e.degree || "")}
+
+              ${
+                e.field
+                ? ` — ${escapeHTML(e.field)}`
+                : ""
+              }
+
+            </p>
+
+
+            <p class="tl-org">
+
+              ${escapeHTML(e.institution || "")}
+
+            </p>
+
+
+            ${
+              e.description
+              ? `
+                <p class="tl-desc">
+                  ${escapeHTML(e.description)}
+                </p>
+              `
+              : ""
+            }
+
+          </div>
+
+        </div>
+
+      `)
+      .join("")
+    }
+
+  `;
+}
+
+
+/* ================= CERTIFICATIONS + LANGUAGES ================= */
+
+function renderCertLang(d){
+
+  const hasCert =
+    d.certifications &&
+    d.certifications.length;
+
+
+  const hasLang =
+    d.languages &&
+    d.languages.length;
+
+
+  if(!hasCert && !hasLang){
+    return;
+  }
+
+
+  const s = document.getElementById("certLang");
+
+
+  s.innerHTML = `
+
+    <div class="sec-head">
+
+      <span class="sec-num mono">
+        06
+      </span>
+
+      <h2>
+        Certifications & langues
+      </h2>
+
+    </div>
+
+
+    <div class="split">
+
+
+      <div>
+
+        ${
+          hasCert
+          ? d.certifications
+              .map(c => `
+
+                <div class="cert-item">
+
+                  <div>
+
+                    <div class="cert-name">
+                      ${escapeHTML(c.name || "")}
+                    </div>
+
+                    <div class="cert-org">
+                      ${escapeHTML(c.organization || "")}
+                    </div>
+
+                  </div>
+
+
+                  <div class="cert-date">
+                    ${escapeHTML(c.date || "")}
+                  </div>
+
+                </div>
+
+              `)
+              .join("")
+          : ""
+        }
+
+      </div>
+
+
+      <div>
+
+        ${
+          hasLang
+          ? d.languages
+              .map(l => {
+
+                if(typeof l === "string"){
+
+                  return `
+
+                    <div class="lang-item">
+
+                      <span>
+                        ${escapeHTML(l)}
+                      </span>
+
+                      <span class="lang-level"></span>
+
+                    </div>
+
+                  `;
+
+                }
+
+
+                return `
+
+                  <div class="lang-item">
+
+                    <span>
+                      ${escapeHTML(l.language || "")}
+                    </span>
+
+                    <span class="lang-level">
+                      ${escapeHTML(l.level || "")}
+                    </span>
+
+                  </div>
+
+                `;
+
+              })
+              .join("")
+          : ""
+        }
+
+      </div>
+
+
+    </div>
+
+  `;
+}
+
+
+/* ================= FOOTER ================= */
+
+function renderFooter(d){
+
+  const year =
+    new Date().getFullYear();
+
+
+  document.getElementById("footText").textContent =
+    `© ${year} ${d.name} — Portfolio professionnel`;
+}
+
+
+/* ================= RENDER ================= */
+
+function render(data){
+
+  renderHero(data);
+
+  renderSummary(data);
+
+  renderSkills(data);
+
+  renderExperience(data);
+
+  renderProjects(data);
+
+  renderEducation(data);
+
+  renderCertLang(data);
+
+  renderFooter(data);
+}
+
+
+/* ================= START ================= */
+
+render(PORTFOLIO_DATA);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+OUSSAMA RAHIMI  
+COMPUTER VISION ENGINEER  
+Python · OpenCV · PyTorch · CNN · Vision Transformers
+
+Fès, Maroc  
++212 600 000 106  
+oussama.rahimi@example.com  
+GitHub · LinkedIn
+
+PROFIL  
+Computer Vision Engineer spécialisé dans l’analyse d’images et le Deep Learning. Expérience dans la classification, la détection et la segmentation d’images avec PyTorch, OpenCV et les architectures modernes de vision.
+
+EXPÉRIENCE
+
+VisionTech — Computer Vision Engineer  
+Fès | 2025–2026  
+— Développement de modèles de classification d’images.  
+— Prétraitement et augmentation de datasets.  
+— Expérimentation avec CNN et Vision Transformers.  
+— Évaluation et optimisation des modèles.  
+— Développement de prototypes Python.
+
+SmartVision — AI Intern  
+Fès | 2024–2025  
+— Annotation et préparation de données image.  
+— Implémentation de modèles de détection.  
+— Analyse des performances avec différentes métriques.
+
+FORMATION
+
+Master — Computer Vision & AI  
+Université Sidi Mohamed Ben Abdellah | 2024–2026
+
+Licence — Informatique  
+Université Sidi Mohamed Ben Abdellah | 2021–2024
+
+COMPÉTENCES
+
+Computer Vision  
+OpenCV, image processing, segmentation, object detection
+
+Deep Learning  
+PyTorch, TensorFlow, CNN, Vision Transformer, transfer learning
+
+Data  
+NumPy, Pandas, Matplotlib
+
+Outils  
+Git, Docker, Jupyter, Linux
+
+PROJETS
+
+Segmentation d’images  
+Segmentation d’animaux avec un Vision Transformer et techniques d’augmentation.
+
+Détection d’objets  
+Développement d’un modèle de détection d’objets dans des images urbaines.
+
+LANGUES
+
+Arabe : Courant | Français : B2 | Anglais : B2
